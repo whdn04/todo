@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ToDoList</title>
+    <link rel="stylesheet" href="./src/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nanum+Myeongjo:wght@800&family=Noto+Sans+KR:wght@700&display=swap" rel="stylesheet">
+    
+</head>
+<body>
+
+    <header class="infoBox">
+        <div class="info"></div>
+    </header>
+    
+    <div class="blu"> 
+    </div>
+   
+    <article class="box">
+    
+
+    <article class="clockBox">
+        <div class="calendar"></div>
+        <div class="clock"></div>
+    </article>
+
+    <article class="nameBox">
+    <form class="nameForm">
+        <input type="text" class="nameInput" placeholder="이름을 입력하세요.">
+    </form>
+    <div class="HIDDEN" id="nameBox"></div>
+    </article>
+
+    <article class="toDoBox">
+    <form class="toDoForm">
+    <input type="text" class="toDoInput" placeholder="오늘 해야 할 일.">
+    </form>
+    <ul class="toDoUl">
+    </ul>
+    </article>
+
+    </article>
+   
+   
+    <script  src="./src/clock.js"></script>
+    <script src="./src/geo.js"></script>
+    <script src="./src/helloname.js"></script>
+    <script src="./src/background.js"></script>
+    <script src="./src/todo.js"></script>
+   
+</body>
+</html>
