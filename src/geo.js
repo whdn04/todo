@@ -11,7 +11,7 @@ function onGO(pos){
         const info = document.querySelector(".info")
         const name = data.name;
         const weather = data.weather[0].main;
-        info.innerText = `지역은 ${name} 날씨는 ${weather}`
+        info.innerText = `현재 ${name}의 날씨는 ${weather}`
     })
     
 

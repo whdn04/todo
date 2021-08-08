@@ -11,8 +11,8 @@ function clock(){
     const mon = String(date.getMonth()+1).padStart(2, "0")
     const day = String(date.getDate()).padStart(2, "0")
 
-    CLOCK.innerText = `${hor} : ${min} : ${sec} `
+    CLOCK.innerText = `${hor} : ${min} `
     CALENDAR.innerText = `${year}년 ${mon}월 ${day}일`
-    console.log(day)
+    
 }
 setInterval(clock, 1000) 

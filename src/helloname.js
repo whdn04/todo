@@ -7,7 +7,7 @@ const LOCALNAME = localStorage.getItem("name")
 function inName(e){
     e.preventDefault();
     const nameValue = nameInput.value;
-    nameBox.innerText = `안녕 ${nameValue}`
+    nameBox.innerText = `어서오세요 ${nameValue}님.`
     localStorage.setItem("name", nameValue)
     nameForm.classList.add(HIDDEN)
     nameBox.classList.remove(HIDDEN)
@@ -18,7 +18,7 @@ if( LOCALNAME === null){
     nameForm.classList.remove(HIDDEN)
 }else{
     nameForm.classList.add(HIDDEN)
-    nameBox.innerText = `안녕 ${LOCALNAME}`
+    nameBox.innerText = `어서오세요 ${LOCALNAME}님`
     nameBox.classList.remove(HIDDEN)
    
 }
