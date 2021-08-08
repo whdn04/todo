@@ -72,7 +72,7 @@ input:focus {
   padding-left: 0;
 }
 .clockBox {
-  margin-bottom: 20px;
+  margin-bottom: 40px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -80,8 +80,8 @@ input:focus {
   font-size: 30px;
 }
 .nameBox {
-  font-size: 40px;
-  margin-bottom: 20px;
+  font-size: 60px;
+  margin-bottom: 30px;
 }
 input::placeholder {
   color: white;
@@ -89,11 +89,11 @@ input::placeholder {
 }
 .nameInput {
   border-bottom: solid;
-  font-size: 40px;
+  font-size: 60px;
   text-align: center;
 }
 .toDoInput {
   border-bottom: solid;
-  font-size: 20px;
+  font-size: 40px;
   text-align: center;
 }
